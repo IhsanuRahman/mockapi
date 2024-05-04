@@ -1,8 +1,8 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "home": [
+    { "id": 1, "description": "Post 1" ,"url":"media/posts/klfjds234jkf","user_id":2,"posted_on":"13:40-19/3/2024"},
+    { "id": 2, "description": "Post 2" ,"url":"media/posts/frwerfsds234jkf","user_id":4,"posted_on":"13:10-13/3/2024"},
+    { "id": 3, "description": "Post 3" ,"url":"media/posts/klsdsfsdf34","user_id":2,"posted_on":"16:30-11/3/2024"}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
