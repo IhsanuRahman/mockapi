@@ -5,19 +5,94 @@
       "description": "Post 1",
       "url": "media/posts/klfjds234jkf",
       "user_id": 2,
-      "username":"charls",
-      "user_profile":"media/user/3kfeijklfdslfsdklf",
-      "rating":"0",
+      "username": "charls",
+      "user_profile": "media/user/3kfeijklfdslfsdklf",
+      "rating": "0",
+      "comments": [
+        {
+          "id": 1,
+          "body": "some comment",
+          "user": {
+            "id": 2,
+            "username": "usef",
+            "firstname": "usef",
+            "lastname": "usain",
+            "email": "usefusain@email.com",
+            "description": "lorum ipsum dolar sit",
+            "is_staff": 0,
+            "is_banned": 0,
+            "user_profile": "media/user/5fs3jklfdslfsdklf"
+          }
+        },
+        {
+          "id": 2,
+          "body": "some comment",
+          "user": {
+            "id": 4,
+            "username": "rennis",
+            "firstname": "rennis",
+            "lastname": "detchie",
+            "email": "rennisdetchie@email.com",
+            "description": "lorum ipsum dolar sit",
+            "is_staff": 0,
+            "is_banned": 0,
+            "user_profile": "media/user/fkfei4332slfsdklf"
+          }
+        }
+      ],
       "posted_on": "13:40-19/3/2024"
     },
     {
       "id": 2,
       "description": "Post 2",
       "url": "media/posts/frwerfsds234jkf",
-      "user_id": 4,
-      "username":"jobs",
-      "user_profile":"media/user/32kfeijkrwerslfsdklf",
-      "rating":"0",
+      "user": {
+        "id": 4,
+        "username": "rennis",
+        "firstname": "rennis",
+        "lastname": "detchie",
+        "email": "rennisdetchie@email.com",
+        "description": "lorum ipsum dolar sit",
+        "is_staff": 0,
+        "is_banned": 0,
+        "user_profile": "media/user/fkfei4332slfsdklf"
+      },
+
+      "comments": [
+        {
+          "id": 1,
+          "body": "some comment",
+          "user": {
+            "id": 2,
+            "username": "usef",
+            "firstname": "usef",
+            "lastname": "usain",
+            "email": "usefusain@email.com",
+            "description": "lorum ipsum dolar sit",
+            "is_staff": 0,
+            "is_banned": 0,
+            "user_profile": "media/user/5fs3jklfdslfsdklf"
+          }
+        },
+        {
+          "id": 2,
+          "body": "some comment",
+          "user": {
+            "id": 4,
+            "username": "rennis",
+            "firstname": "rennis",
+            "lastname": "detchie",
+            "email": "rennisdetchie@email.com",
+            "description": "lorum ipsum dolar sit",
+            "is_staff": 0,
+            "is_banned": 0,
+            "user_profile": "media/user/fkfei4332slfsdklf"
+          }
+        }
+      ],
+      "username": "jobs",
+      "user_profile": "media/user/32kfeijkrwerslfsdklf",
+      "rating": "0",
       "posted_on": "13:10-13/3/2024"
     },
     {
@@ -25,9 +100,9 @@
       "description": "Post 3",
       "url": "media/posts/klsdsfsdf34",
       "user_id": 2,
-      "username":"charls",
-      "user_profile":"media/user/2121djklfdslfsdklf",
-      "rating":"0",
+      "username": "charls",
+      "user_profile": "media/user/2121djklfdslfsdklf",
+      "rating": "0",
       "posted_on": "16:30-11/3/2024"
     }
   ],
@@ -35,6 +110,7 @@
     {
       "id": 1,
       "body": "some comment",
+      "user_id": 2,
       "postId": 1
     },
     {
@@ -43,7 +119,61 @@
       "postId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "username": "charls",
+      "firstname": "charls",
+      "lastname": "babbage",
+      "email": "charlsbabbage@email.com",
+      "description": "lorum ipsum dolar sit",
+      "is_staff": 0,
+      "is_banned": 0,
+      "user_profile": "media/user/432rsfflfdslfsdklf"
+    },
+    {
+      "id": 2,
+      "username": "usef",
+      "firstname": "usef",
+      "lastname": "usain",
+      "email": "usefusain@email.com",
+      "description": "lorum ipsum dolar sit",
+      "is_staff": 0,
+      "is_banned": 0,
+      "user_profile": "media/user/5fs3jklfdslfsdklf"
+    },
+    {
+      "id": 3,
+      "username": "stieve",
+      "firstname": "stieve",
+      "lastname": "jobs",
+      "email": "stievejobs@email.com",
+      "description": "lorum ipsum dolar sit",
+      "is_staff": 0,
+      "is_banned": 0,
+      "user_profile": "media/user/3kfeijklfdslfsdklf"
+    },
+    {
+      "id": 4,
+      "username": "rennis",
+      "firstname": "rennis",
+      "lastname": "detchie",
+      "email": "rennisdetchie@email.com",
+      "description": "lorum ipsum dolar sit",
+      "is_staff": 0,
+      "is_banned": 0,
+      "user_profile": "media/user/fkfei4332slfsdklf"
+    },
+    {
+      "id": 5,
+      "username": "jackie",
+      "firstname": "jackie",
+      "lastname": "john",
+      "email": "jackiejohn@email.com",
+      "description": "lorum ipsum dolar sit",
+      "is_staff": 0,
+      "is_banned": 0,
+      "user_profile": "media/user/3dfsd43wr3fsd2dklf"
+    }
+  ]
 }
