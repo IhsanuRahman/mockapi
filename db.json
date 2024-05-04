@@ -1,4 +1,5 @@
 {
+  "login":"Successfully Login ",
   "home": [
     {
       "id": 1,
@@ -57,7 +58,6 @@
         "is_banned": 0,
         "user_profile": "media/user/fkfei4332slfsdklf"
       },
-
       "comments": [
         {
           "id": 1,
@@ -174,6 +174,34 @@
       "is_staff": 0,
       "is_banned": 0,
       "user_profile": "media/user/3dfsd43wr3fsd2dklf"
+    }
+  ],
+  "messages": [
+    {
+      "message": "hello",
+      "send_at":"15:18-10/01/2024",
+      "sender_id":1,
+      "receiver_id":2
+    },{
+      "message": "hai",
+      "send_at":"15:45-10/01/2024",
+      "sender_id":2,
+      "receiver_id":1
+    },{
+      "message": "hello",
+      "send_at":"15:18-10/01/2024",
+      "sender_id":4,
+      "receiver_id":5
+    },{
+      "message": "hello",
+      "send_at":"15:45-10/01/2024",
+      "sender_id":5,
+      "receiver_id":4
+    },{
+      "message": "hello",
+      "send_at":"15:18-10/01/2024",
+      "sender_id":4,
+      "receiver_id":1
     }
   ]
 }
